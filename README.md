@@ -8,3 +8,5 @@
      b，application.properties配置 转基于Java编码的规则配置时一直报如下异常
         Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/apache/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalArgumentException: Data sources cannot be empty.（解决:springboot启动类中，排除org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration）
 为了后期不再重新踩坑，故把最终成功的代码上传至github.
+
+
