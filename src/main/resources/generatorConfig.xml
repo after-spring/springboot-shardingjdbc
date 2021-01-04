@@ -47,7 +47,10 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
-        <table tableName="t_order_1" domainObjectName="OrderInfo">
+        <table tableName="region" domainObjectName="Region">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="store_info" domainObjectName="StoreInfo">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
         <!-- -->
