@@ -10,3 +10,5 @@
 为了后期不再重新踩坑，故把最终成功的代码上传至github.
 
 
+docker mysql主从复制搭建:http://724e8722.wiz06.com/wapp/pages/view/share/s/1OjEsy3iLk7Q2oE5Y51m7nw_03wUac2C2APF2ZS6N91DMSiG
+shardingJdbc笔记:http://724e8722.wiz06.com/wapp/pages/view/share/s/1OjEsy3iLk7Q2oE5Y51m7nw_3DJY7N1FYQaY28qFdj0Ztffd
